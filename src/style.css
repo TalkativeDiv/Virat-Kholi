@@ -97,7 +97,7 @@ font-weight:bold;
 
 footer{
 width:75vw;
-height:75vh;
+height:35vh;
   border-radius:1rem;
 
 box-shadow:  38px 38px 75px #bebebe,
@@ -194,6 +194,15 @@ box-shadow:  10px 10px 20px #bebebe,
   display: flex;
   justify-content: center;
   align-items: center;
+}
+html::-webkit-scrollbar {
+  width: .5rem; 
+}
+
+
+html::-webkit-scrollbar-thumb {
+background: var(--clr-primary);
+border-radius: 25px;
 }
 
 .loader > img {
