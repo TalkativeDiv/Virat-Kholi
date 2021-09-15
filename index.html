@@ -19,6 +19,12 @@
   </head>
   <body>
     <main>
+      <!--loader-->
+      <div class="loader">
+        <!--thanks loading.io-->
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+       <div> <p>Loading...</p></div>
+    </div>
       <!--Header-->
       <header>
         <h1 style="margin-top: 1rem">Virat Kohli</h1>
@@ -158,6 +164,12 @@
         </a>
       </footer>
     </main>
+    <script>
+      window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
+    </script>
     <!--Font Awesome-->
     <script
       src="https://kit.fontawesome.com/861898755b.js"
