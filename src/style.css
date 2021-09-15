@@ -1,12 +1,15 @@
 :root{--clr-primary:#6f03fc;}
 
+
 *{
-font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif!important;
 border: none;
 margin: 0;
 padding: 0;
 transition: .3s ease-in-out;
 }
+
+
 
 body{
   background:#e0e0e0;
