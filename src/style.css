@@ -128,7 +128,7 @@ box-shadow:  38px 38px 75px #bebebe,
 
 
 .icon svg path {
-    fill:var(--clr-primary);
+    fill:var(--clr-primary); 
 }
 
 .icon{
